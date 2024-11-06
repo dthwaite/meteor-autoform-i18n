@@ -6,8 +6,8 @@ Package.describe({
 });
 
 var packages = [
-  "aldeed:simple-schema@1.3.2",
-  "tap:i18n@1.4.1",
+  "aldeed:simple-schema@2.0.0",
+  "tap:i18n@2.0.1",
   "templating@1.1.1",
   "underscore@1.0.3"
 ];
