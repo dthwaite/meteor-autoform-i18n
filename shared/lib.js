@@ -1,3 +1,5 @@
+import SimpleSchema from 'meteor/aldeed:simple-schema';
+
 var humanize = function(property) {
   return property
   .replace(/_/g, " ")

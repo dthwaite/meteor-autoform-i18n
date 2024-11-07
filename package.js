@@ -6,15 +6,15 @@ Package.describe({
 });
 
 var packages = [
-  "aldeed:simple-schema@2.0.0",
-  "tap:i18n@2.0.1",
+  'ecmascript',
+  "aldeed:simple-schema@1.3.2 || 2.0.0",
+  "tap:i18n@1.4.1 || 2.0.1",
   "templating@1.1.1",
   "underscore@1.0.3"
 ];
 
 Package.onUse(function(api, where) {
+  api.versionsFrom(['2.3', '3.0']);
   api.use(packages);
-  api.imply(packages);
-
   api.addFiles(["package-tap.i18n", "shared/lib.js"]);
 });
